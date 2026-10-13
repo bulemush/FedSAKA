@@ -1,0 +1,29 @@
+# Local datasets, model weights and experiment output
+/data/
+/checkpoints/
+/exp/
+/logs/
+/wandb/
+/outputs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+build/
+dist/
+
+# Editor and local assistant state
+.vscode/
+.idea/
+.agents/
+.codex/
+*.log
